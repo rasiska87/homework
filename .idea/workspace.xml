@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a183aa-a98e-4113-a82b-2bdb1f7fb0aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworkweek03-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworkweek03-01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,17 @@
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -51,10 +65,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week03/db_practice.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.homeworkweek03-01">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/homework/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="homework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="homeworkweek03-01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="homework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.homeworkweek03-01" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +166,10 @@
       <workItem from="1602322871349" duration="164000" />
       <workItem from="1602323044254" duration="1262000" />
       <workItem from="1602420791641" duration="1836000" />
-      <workItem from="1602853789516" duration="537000" />
+      <workItem from="1602853789516" duration="1136000" />
+      <workItem from="1602908066334" duration="304000" />
+      <workItem from="1603370944789" duration="2642000" />
+      <workItem from="1603464837222" duration="2995000" />
     </task>
     <servers />
   </component>
@@ -153,26 +197,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602853987522" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602421847392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2151" height="332" key="GridCell.Tab.0.bottom" timestamp="1603466221606">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602421847392" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602421847392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2151" height="332" key="GridCell.Tab.0.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1603466221606" />
+    <state width="2151" height="332" key="GridCell.Tab.0.center" timestamp="1603466221606">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602421847392" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602421847391">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2151" height="332" key="GridCell.Tab.0.center/0.0.2194.1194@0.0.2194.1194" timestamp="1603466221606" />
+    <state width="2151" height="332" key="GridCell.Tab.0.left" timestamp="1603466221606">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602421847391" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602421847392">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2151" height="332" key="GridCell.Tab.0.left/0.0.2194.1194@0.0.2194.1194" timestamp="1603466221606" />
+    <state width="2151" height="332" key="GridCell.Tab.0.right" timestamp="1603466221606">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602421847392" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602323967002">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2151" height="332" key="GridCell.Tab.0.right/0.0.2194.1194@0.0.2194.1194" timestamp="1603466221606" />
+    <state x="527" y="188" key="SettingsEditor" timestamp="1603466075348">
+      <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602323967002" />
+    <state x="527" y="188" key="SettingsEditor/0.0.2194.1194@0.0.2194.1194" timestamp="1603466075348" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +235,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homework$app.coverage" NAME="app Coverage Results" MODIFIED="1603466221598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework$homeworkweek03_01.coverage" NAME="homeworkweek03-01 Coverage Results" MODIFIED="1602854296579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
